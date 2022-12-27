@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c4407335b4.js"></script>
+    <script src="scripts/Quantribaihat.js"></script>
+    <link rel="stylesheet" type="text/css" href="/styles/Quanlynguoidung.css">
+    <title>Quản lý người dùng</title>
+</head>
+<body>
+    <div id="root">
+        <div class="body">
+            <header class="header">
+                <div class="headeroutside">
+                    <div class="headerinside">
+                        <div class="rightheader">
+                            <button class="button-notification" type="button" tabindex="0">
+                                <span class="iconbell">
+                                    <span class="icon" >
+                                    <i class="fa-regular fa-bell"></i></span>
+                                </span>
+                                <span class="numberbutton">3</span>
+                                <span class="bell"></span>
+                            </button>
+                            <div class="bodyright" style="width: 20px;"></div>
+                            <div class="admindropdown">
+                                <span class="gear" >
+                                    <i class="fa-solid fa-users-gear"></i></span>
+                                <span class="nameadmin">Admin</span>
+                                <span class="angle">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </span>
+                                <!--<div class="dropdown">
+                                    <div class="menudropdown">
+                                        <span class="gear2" >
+                                            <i class="fa-solid fa-users-gear"></i>
+                                        </span>
+                                        <div class="name">
+                                            <p class="admin">Admin</p>
+                                        </div>  
+                                    </div>
+                                    <li class="menu">
+                                        <button class="hoso" tabindex="0" type="button">
+                                            <span class="user">
+                                                <span class="fauser">
+                                                    <i class="fa-regular fa-user"></i>
+                                                </span>
+                                            </span>
+                                            Hồ sơ Admin
+                                            <span class="hsAdmin"></span>
+                                        </button>
+                                        <button class="hoso" tabindex="0" type="button">
+                                            <span class="user">
+                                                <span class="fauser">
+                                                    <i class="fa-regular fa-pen-to-square"></i>
+                                                </span>
+                                            </span>
+                                            Thay đổi mật khẩu
+                                            <span class="hsAdmin"></span>
+                                        </button>                                                
+                                    </li>
+                                </div>-->                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="leftbody">
+                <div class="leftall">
+                    <div class="lefttop">
+                        <button class="logo" tabindex="0" type="button">
+                            <span class="gear3">
+                                <i class="fa-solid fa-users-gear"></i></span>
+                            </span>
+                            <span class="bell"></span>
+                        </button>
+                        <h6 class="admincenter">Admin Center</h6>
+                    </div>
+                    <hr class="hrleft">
+                    <ul class="menuleft">
+                        <a href="Trangchu.html">
+                            <li class="litc">
+                                <div class="divtc">
+                                    <div class="divtc1">
+                                        <span class="icondivtc">
+                                            <i class="fa-sharp fa-solid fa-chart-simple"></i>
+                                        </span>
+                                    </div>
+                                    <div class="divtc2">
+                                        <span class="tc">Trang chủ</span>
+                                    </div>
+                                    <span class="hsAdmin"></span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="Quantribaihat.html">
+                            <li class="litc">
+                                <div class="divtc">
+                                    <div class="divtc1">
+                                        <span class="icondivtc">
+                                            <i class="fa-solid fa-music"></i>
+                                        </span>
+                                    </div>
+                                    <div class="divtc2">
+                                        <span class="tc">Quản trị bài hát</span>
+                                    </div>
+                                    <span class="hsAdmin"></span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="Trangchu.html">
+                            <li class="litc">
+                                <div class="divtc">
+                                    <div class="divtc1">
+                                        <span class="icondivtc">
+                                            <i class="fa-sharp fa-solid fa-chart-pie"></i>
+                                        </span>
+                                    </div>
+                                    <div class="divtc2">
+                                        <span class="tc">Trung tâm phát triển</span>
+                                    </div>
+                                    <span class="hsAdmin"></span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="Quanlynguoidung.html">
+                            <li class="litc">
+                                <div class="divtcin">
+                                    <div class="divtc1">
+                                        <span class="icondivtc">
+                                            <i class="fa-solid fa-user-plus"></i>
+                                        </span>
+                                    </div>
+                                    <div class="divtc2">
+                                        <span class="tc">Quản lý người dùng</span>
+                                    </div>
+                                    <span class="hsAdmin"></span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="Quanlydanhgia.html">
+                            <li class="litc">
+                                <div class="divtc">
+                                    <div class="divtc1">
+                                        <span class="icondivtc">
+                                            <i class="fa-solid fa-user-pen"></i>
+                                        </span>
+                                    </div>
+                                    <div class="divtc2">
+                                        <span class="tc">Quản lý đánh giá</span>
+                                    </div>
+                                    <span class="hsAdmin"></span>
+                                </div>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <main class="mainbody">
+                <div class="maintop"></div>
+                <div>
+                    <div class="maindowntop">
+                        <p class="title1"><b>QUẢN LÝ NGƯỜI DÙNG</b></p>
+                        <a href="Quantribaihat.html">
+                            <button class="create" tabindex="0" type="button">
+                                <a href="Themnguoidung.html">Thêm người dùng</a>
+                                <span class="createmussic"></span>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="maindowndown">
+                        <div class="on">
+                            <div class="anttabstabinner">
+                                <div class="anttabscontent">
+                                    Quản lý người dùng [1]
+                                </div>
+                            </div>
+                            <div class="inputgroup">
+                                <input placeholder="Nhập id để tìm" type="text" class="input">
+                                <span class="iconsearch">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="between">
+                            <p class="title2">Tổng cộng có: 7 bản ghi</p>
+                            <nav class="nav" aria-label="pagination navigation">
+                                <ul class="navul">
+                                    <li>
+                                        <button class="buttonli" tabindex="-1" type="button">
+                                            <span class="angleleft">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="page1" tabindex="0" type="button" aria-label="page 1" aria-current="true">
+                                            1
+                                            <span class="spanpage1"></span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="page2" tabindex="0" type="button" aria-label="page 2">
+                                            2
+                                            <span class="spanpage1"></span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="page2" tabindex="0" type="button" aria-label="page 2">
+                                            3
+                                            <span class="spanpage1"></span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="page2" tabindex="0" type="button" aria-label="page 2">
+                                            4
+                                            <span class="spanpage1"></span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="page2" tabindex="0" type="button" aria-label="page 2">
+                                            5
+                                            <span class="spanpage1"></span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="page2" tabindex="0" type="button" aria-label="page 2">
+                                            6
+                                            <span class="spanpage1"></span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="page2" tabindex="0" type="button" aria-label="page 2">
+                                            7
+                                            <span class="spanpage1"></span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="page2" tabindex="0" type="button" aria-label="page 2">
+                                            <span class="angleleft">
+                                                <i class="fa-solid fa-angle-right"></i>
+                                            </span>
+                                            <span class="spanpage1"></span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="under">
+                            <table>
+                                <thead>
+                                    <tr class="trthead">
+                                        <th class="thtr1">STT</th>
+                                        <th class="thtr1">ID</th>
+                                        <th class="thtr1">Tên người dùng</th>
+                                        <th class="thtr1">Email</th>
+                                        <th class="thtr1">Số điện thoại</th>
+                                        <th class="thtr1" width="70px">Lượt đã nghe</th>
+                                        <th class="thtr1" width="70px">Lượt đã tải</th>
+                                        <th class="thtr1" width="70px">Lượt đã đánh giá</th>
+                                        <th class="thtr1" width="90px">Loại tài khoản</th>
+                                        <th class="thtr1">Thao tác</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="trtbody">
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">1</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">184tchk49</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Trần Hồng Cẩm LY</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">tranhongcamly@gmail.com</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">0777126987</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">308</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">19</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">28</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">VIP</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <div class="divthaotac">
+                                                <button class="btsua">
+                                                    <a href="Suanguoidung.html" style="color: white;">Sửa</a>
+                                                    <span class="bell"></span>
+                                                </button>
+                                                <button class="btxoa">
+                                                    Xóa
+                                                    <span class="bell"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="trtbody">
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">2</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">497rjfh48</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Trần Thị Thanh Tuyền</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">tranthithanhtuyen@gmail.com</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">0355987023</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">89</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">5</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">14</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Regular</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <div class="divthaotac">
+                                                <button class="btsua">
+                                                    Sửa
+                                                    <span class="bell"></span>
+                                                </button>
+                                                <button class="btxoa">
+                                                    Xóa
+                                                    <span class="bell"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="trtbody">
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">3</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">184tchk49</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Trần Hồng Cẩm LY</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">tranhongcamly@gmail.com</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">0777126987</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">308</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">19</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">28</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">VIP</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <div class="divthaotac">
+                                                <button class="btsua">
+                                                    Sửa
+                                                    <span class="bell"></span>
+                                                </button>
+                                                <button class="btxoa">
+                                                    Xóa
+                                                    <span class="bell"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="trtbody">
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">4</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">497rjfh48</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Trần Thị Thanh Tuyền</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">tranthithanhtuyen@gmail.com</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">0355987023</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">89</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">5</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">14</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Regular</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <div class="divthaotac">
+                                                <button class="btsua">
+                                                    Sửa
+                                                    <span class="bell"></span>
+                                                </button>
+                                                <button class="btxoa">
+                                                    Xóa
+                                                    <span class="bell"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="trtbody">
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">5</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">184tchk49</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Trần Hồng Cẩm LY</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">tranhongcamly@gmail.com</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">0777126987</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">308</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">19</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">28</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">VIP</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <div class="divthaotac">
+                                                <button class="btsua">
+                                                    Sửa
+                                                    <span class="bell"></span>
+                                                </button>
+                                                <button class="btxoa">
+                                                    Xóa
+                                                    <span class="bell"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="trtbody">
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">6</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">497rjfh48</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Trần Thị Thanh Tuyền</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">tranthithanhtuyen@gmail.com</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">0355987023</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">89</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">5</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">14</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Regular</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <div class="divthaotac">
+                                                <button class="btsua">
+                                                    Sửa
+                                                    <span class="bell"></span>
+                                                </button>
+                                                <button class="btxoa">
+                                                    Xóa
+                                                    <span class="bell"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="trtbody">
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">7</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">184tchk49</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Trần Hồng Cẩm LY</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">tranhongcamly@gmail.com</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">0777126987</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">308</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">19</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">28</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">VIP</p>
+                                        </td>
+                                        <td class="tdtr1">
+                                            <div class="divthaotac">
+                                                <button class="btsua">
+                                                    Sửa
+                                                    <span class="bell"></span>
+                                                </button>
+                                                <button class="btxoa">
+                                                    Xóa
+                                                    <span class="bell"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
