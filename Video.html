@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c4407335b4.js"></script>
     <script src="scripts/Quantribaihat.js"></script>
-    <link rel="stylesheet" type="text/css" href="/styles/Quanlynguoidung.css">
-    <title>User Management</title>
+    <link rel="stylesheet" type="text/css" href="styles/Video.css">
+    <title>Video</title>
 </head>
 <body>
     <div id="root">
@@ -157,7 +157,7 @@
                         </a>
                         <a href="Video.html">
                             <li class="litc">
-                                <div class="divtc">
+                                <div class="divtcin">
                                     <div class="divtc1">
                                         <span class="icondivtc">
                                             <i class="fa-solid fa-video"></i>
@@ -172,7 +172,7 @@
                         </a>
                         <a href="Quanlynguoidung.html">
                             <li class="litc">
-                                <div class="divtcin">
+                                <div class="divtc">
                                     <div class="divtc1">
                                         <span class="icondivtc">
                                             <i class="fa-solid fa-user-plus"></i>
@@ -192,26 +192,56 @@
                 <div class="maintop"></div>
                 <div>
                     <div class="maindowntop">
-                        <p class="title1"><b>USER MANAGEMENT</b></p>
-                        <a href="Quanlynguoidung.html">
+                        <p class="title"><b>VIDEO MANAGEMENT</b></p>
+                        <a href="Quantribaihat.html">
                             <button class="create" tabindex="0" type="button">
-                                <a href="Themnguoidung.html">CREATE USER</a>
+                                CREATE VIDEO
                                 <span class="createmussic"></span>
                             </button>
                         </a>
                     </div>
                     <div class="maindowndown">
                         <div class="on">
-                            <div class="anttabstabinner">
-                                <div class="anttabscontent">
-                                    User Management [1]
+                            <div class="xuat">
+                                <div class="xuatbh">
+                                    <div class="xuatallbh">Export a list of all songs</div>
+                                    <input class="nativeinput">
+                                    <span class="angledown">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                    <fieldset aria-hidden="true" class="fieldset">
+                                        <legend class="legend"></legend>
+                                    </fieldset>
+                                    <!--<div class="noidung_dropdown">
+                                        <a href="#">Đường Dẫn 1</a>
+                                        <a href="#">Đường Dẫn 2</a>
+                                        <a href="#">Đường Dẫn 3</a>
+                                      </div>--> 
                                 </div>
                             </div>
-                            <div class="inputgroup">
-                                <input placeholder="Enter id to search" type="text" class="input">
-                                <span class="iconsearch">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </span>
+                            <div class="xuat">
+                                <div class="xuatbh">
+                                    <div class="xuatallbh">Export selected playlist</div>
+                                    <input class="nativeinput">
+                                    <span class="angledown">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                    <fieldset aria-hidden="true" class="fieldset">
+                                        <legend class="legend"></legend>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="xuat">
+                                <div class="xuatbh">
+                                    <div class="xuatallbh">Updated list of all songs</div>
+                                    <input class="nativeinput">
+                                    <span class="angledown">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                    <fieldset aria-hidden="true" class="fieldset">
+                                        <legend class="legend"></legend>
+                                    </fieldset>
+                                </div>
                             </div>
                         </div>
                         <div class="between">
@@ -277,21 +307,32 @@
                                     </li>
                                 </ul>
                             </nav>
+                            <div class="thanhsearch">
+                                <div class="thsearch">
+                                    <label class="Search">Search</label>
+                                    <div class="divsearch">
+                                        <input class="nativeinput2">
+                                        <fieldset aria-hidden="true" class="fieldset">
+                                            <legend class="legend2"></legend>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <span class="iconSearch">
+                                    <span class="glass">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </span>
+                                </span>
+                            </div>
                         </div>
                         <div class="under">
                             <table>
                                 <thead>
                                     <tr class="trthead">
                                         <th class="thtr1">STT</th>
-                                        <th class="thtr1">ID</th>
-                                        <th class="thtr1">User name</th>
-                                        <th class="thtr1">Email</th>
-                                        <th class="thtr1">Phone number</th>
-                                        <th class="thtr1" width="70px">Application registration date</th>
-                                        <th class="thtr1" width="370px">Favorite songs list</th>
-                                        <th class="thtr1" width="170px">Playlists</th>
-                                        <th class="thtr1" width="90px">Account type</th>
-                                        <th class="thtr1"></th>
+                                        <th class="thtr1">Name</th>
+                                        <th class="thtr1" width="150px">Creator</th>
+                                        <th class="thtr1" width="580px">Description</th>
+                                        <th class="thtr1" width="90px"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -300,44 +341,18 @@
                                             <p class="ptdtr">1</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">184tchk49</p>
+                                            <p class="ptdtr">Viva La Vida</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">tranly123</p>
+                                            <p class="ptdtr">Coldplay</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">tranhongcamly@gmail.com</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">0777126987</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">February 1, 2022</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Hello <i class="detail">(Adele)</i></li>
-                                                    <li>Lemon Tree <i class="detail">(Fool's Garden)</i></li>
-                                                    <li>Black space <i class="detail">(Taylor Swift)</i></li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Happy Hit!</li>
-                                                    <li>All Out 10s</li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">VIP</p>
+                                            <p class="ptdtr1">"Viva la Vida" is a song by British alternative rock band Coldplay . The song was written by all members of the group for their fourth studio album Viva La Vida or Death and All His Friends (2008) and was released as the album's opening single. On the album, the song is a follow-up to the later single " Violet Hill ". "Viva la Vida" in Spanish means "Long life". The song's lyrics contain historical and Christian references, and the music is built around a repetitive symphony in harmony with the marching piano and green drums lost.</p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    <a href="Suanguoidung.html" style="color: white;">Edit</a>
+                                                    Edit
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">
@@ -352,39 +367,13 @@
                                             <p class="ptdtr">2</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">497rjfh48</p>
+                                            <p class="ptdtr">Yellow</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">thanhtuyen321</p>
+                                            <p class="ptdtr">Coldplay</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">tranthithanhtuyen@gmail.com</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">0355987023</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">May 18, 2022</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Hello <i class="detail">(Adele)</i></li>
-                                                    <li>Lemon Tree <i class="detail">(Fool's Garden)</i></li>
-                                                    <li>Black space <i class="detail">(Taylor Swift)</i></li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Mega Hit Mix</li>
-                                                    <li>Alone Again</li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">Regular</p>
+                                            <p class="ptdtr1">"Yellow" is a song by British alternative rock group Coldplay. The song was written by the band members in collaboration with British music producer Ken Nelson, for the second studio album by the group Parachutes (2000). The lyrics are described by leader Chris Martin as about unrequited love.</p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
@@ -404,44 +393,18 @@
                                             <p class="ptdtr">3</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">184tchk49</p>
+                                            <p class="ptdtr">Something Just Like This</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">thiennhan123</p>
+                                            <p class="ptdtr">Coldplay</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">nguyenhuuthiennhan@gmail.com</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">0385126987</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">June 8, 2022</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Hello <i class="detail">(Adele)</i></li>
-                                                    <li>Lemon Tree <i class="detail">(Fool's Garden)</i></li>
-                                                    <li>Black space <i class="detail">(Taylor Swift)</i></li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Happy Hit!</li>
-                                                    <li>All Out 10s</li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">VIP</p>
+                                            <p class="ptdtr1">"Something Just Like This" is a song by American producer duo The Chainsmokers and British band Coldplay from The Chainsmokers' debut studio album, Memories...Do Not Open (2017). Additionally, the song is featured on Coldplay's 13th EP, Kaleidoscope EP (2017). It was released on February 22, 2017 as the second single from the album and the first from an EP by Disruptor Records and Columbia Records . "Something Just Like This" was co-written by The Chainsmokers member Andrew Taggart and all the members of Coldplay ( Chris Martin , Guy Berryman ), Jonny Buckland and Will Champion ), while production was handled by Taggart with the rest of the team Alex Pall. The song is a Future bass and pop song with content referring to a man's wish for a relationship that doesn't have to be perfect as in the legend.</p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    <a href="Suanguoidung.html" style="color: white;">Edit</a>
+                                                    Edit
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">
@@ -456,44 +419,18 @@
                                             <p class="ptdtr">4</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">184tchk49</p>
+                                            <p class="ptdtr">Viva La Vida</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">tranly123</p>
+                                            <p class="ptdtr">Coldplay</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">tranhongcamly@gmail.com</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">0777126987</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">February 1, 2022</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Hello <i class="detail">(Adele)</i></li>
-                                                    <li>Lemon Tree <i class="detail">(Fool's Garden)</i></li>
-                                                    <li>Black space <i class="detail">(Taylor Swift)</i></li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Happy Hit!</li>
-                                                    <li>All Out 10s</li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">VIP</p>
+                                            <p class="ptdtr1">"Viva la Vida" is a song by British alternative rock band Coldplay . The song was written by all members of the group for their fourth studio album Viva La Vida or Death and All His Friends (2008) and was released as the album's opening single. On the album, the song is a follow-up to the later single " Violet Hill ". "Viva la Vida" in Spanish means "Long life". The song's lyrics contain historical and Christian references, and the music is built around a repetitive symphony in harmony with the marching piano and green drums lost.</p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    <a href="Suanguoidung.html" style="color: white;">Edit</a>
+                                                    Edit
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">
@@ -508,44 +445,18 @@
                                             <p class="ptdtr">5</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">184tchk49</p>
+                                            <p class="ptdtr">Viva La Vida</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">tranly123</p>
+                                            <p class="ptdtr">Coldplay</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">tranhongcamly@gmail.com</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">0777126987</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">February 1, 2022</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Hello <i class="detail">(Adele)</i></li>
-                                                    <li>Lemon Tree <i class="detail">(Fool's Garden)</i></li>
-                                                    <li>Black space <i class="detail">(Taylor Swift)</i></li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Happy Hit!</li>
-                                                    <li>All Out 10s</li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">VIP</p>
+                                            <p class="ptdtr1">"Viva la Vida" is a song by British alternative rock band Coldplay . The song was written by all members of the group for their fourth studio album Viva La Vida or Death and All His Friends (2008) and was released as the album's opening single. On the album, the song is a follow-up to the later single " Violet Hill ". "Viva la Vida" in Spanish means "Long life". The song's lyrics contain historical and Christian references, and the music is built around a repetitive symphony in harmony with the marching piano and green drums lost.</p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    <a href="Suanguoidung.html" style="color: white;">Edit</a>
+                                                    Edit
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">
@@ -560,44 +471,18 @@
                                             <p class="ptdtr">6</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">184tchk49</p>
+                                            <p class="ptdtr">Viva La Vida</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">tranly123</p>
+                                            <p class="ptdtr">Coldplay</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">tranhongcamly@gmail.com</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">0777126987</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">February 1, 2022</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Hello <i class="detail">(Adele)</i></li>
-                                                    <li>Lemon Tree <i class="detail">(Fool's Garden)</i></li>
-                                                    <li>Black space <i class="detail">(Taylor Swift)</i></li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Happy Hit!</li>
-                                                    <li>All Out 10s</li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">VIP</p>
+                                            <p class="ptdtr1">"Viva la Vida" is a song by British alternative rock band Coldplay . The song was written by all members of the group for their fourth studio album Viva La Vida or Death and All His Friends (2008) and was released as the album's opening single. On the album, the song is a follow-up to the later single " Violet Hill ". "Viva la Vida" in Spanish means "Long life". The song's lyrics contain historical and Christian references, and the music is built around a repetitive symphony in harmony with the marching piano and green drums lost.</p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    <a href="Suanguoidung.html" style="color: white;">Edit</a>
+                                                    Edit
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">
@@ -612,44 +497,18 @@
                                             <p class="ptdtr">7</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">184tchk49</p>
+                                            <p class="ptdtr">Viva La Vida</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">tranly123</p>
+                                            <p class="ptdtr">Coldplay</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">tranhongcamly@gmail.com</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">0777126987</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">February 1, 2022</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Hello <i class="detail">(Adele)</i></li>
-                                                    <li>Lemon Tree <i class="detail">(Fool's Garden)</i></li>
-                                                    <li>Black space <i class="detail">(Taylor Swift)</i></li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">
-                                                <ul>
-                                                    <li>Happy Hit!</li>
-                                                    <li>All Out 10s</li>
-                                                </ul>
-                                            </p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">VIP</p>
+                                            <p class="ptdtr1">"Viva la Vida" is a song by British alternative rock band Coldplay . The song was written by all members of the group for their fourth studio album Viva La Vida or Death and All His Friends (2008) and was released as the album's opening single. On the album, the song is a follow-up to the later single " Violet Hill ". "Viva la Vida" in Spanish means "Long life". The song's lyrics contain historical and Christian references, and the music is built around a repetitive symphony in harmony with the marching piano and green drums lost.</p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    <a href="Suanguoidung.html" style="color: white;">Edit</a>
+                                                    Edit
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">

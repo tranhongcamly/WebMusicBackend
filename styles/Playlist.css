@@ -146,8 +146,8 @@
     cursor: pointer;
     margin-left: 24px;
 }
-.show{
-    display: block;
+.hienThi{
+    display:inline-block;
 }
 .gear{
     color:darkturquoise;
@@ -170,9 +170,6 @@
     /* padding-left: 18px; */
     padding-right: 16px;
     font-weight: 300;
-    background-color: white;
-    border: 0px;
-    cursor: pointer;
 }
 .angle{
     user-select: none;
@@ -1039,6 +1036,17 @@ tbody{
 }
 .productTable p {
     font-size: 12px!important;
+}
+.xemthem{
+    text-decoration: underline;
+    color: rgb(0, 149, 255);
+}
+.xemthem:hover{
+    text-decoration: none;
+    color: blue;
+}
+.detail{
+    color: #bfbfbf;
 }
 .ptdtr{
     margin: 0px;

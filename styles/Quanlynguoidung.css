@@ -167,7 +167,7 @@
     line-height: 1.66;
     letter-spacing: 0.03333em;
     font-size: 17px;
-    padding-left: 18px;
+    /* padding-left: 18px; */
     padding-right: 16px;
     font-weight: 300;
 }
@@ -846,6 +846,9 @@ tbody{
 }
 .productTable p {
     font-size: 12px!important;
+}
+.detail{
+    color: #bfbfbf;
 }
 .ptdtr{
     margin: 0px;

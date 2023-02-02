@@ -7,7 +7,8 @@
     <script src="https://kit.fontawesome.com/c4407335b4.js"></script>
     <script src="scripts/Quantribaihat.js"></script>
     <link rel="stylesheet" type="text/css" href="styles/Quantribaihat.css">
-    <title>Trangchu</title>
+    <!-- <script src="/scripts/Quantribaihat.js"></script> -->
+    <title>Song Administration</title>
 </head>
 <body>
     <div id="root">
@@ -27,15 +28,16 @@
                             <div class="bodyright" style="width: 20px;"></div>
                             <div class="admindropdown">
                                 <span class="gear" >
-                                    <i class="fa-solid fa-users-gear"></i></span>
-                                <span class="nameadmin">Admin</span>
+                                    <i class="fa-solid fa-circle-user"></i></span>
+                                <button onclick="myFunction()" class="nameadmin">Admin</button>
                                 <span class="angle">
                                     <i class="fa-solid fa-angle-down"></i>
                                 </span>
-                                <!--<div class="dropdown">
+                                <!-- /cái xổ xuống -->
+                                <!-- <div class="dropdown" id="myDropdown">
                                     <div class="menudropdown">
                                         <span class="gear2" >
-                                            <i class="fa-solid fa-users-gear"></i>
+                                            <i class="fa-solid fa-circle-user"></i>
                                         </span>
                                         <div class="name">
                                             <p class="admin">Admin</p>
@@ -61,7 +63,8 @@
                                             <span class="hsAdmin"></span>
                                         </button>                                                
                                     </li>
-                                </div>-->                               
+                                </div>  -->
+                                <!--  -->
                             </div>
                         </div>
                     </div>
@@ -72,7 +75,7 @@
                     <div class="lefttop">
                         <button class="logo" tabindex="0" type="button">
                             <span class="gear3">
-                                <i class="fa-solid fa-users-gear"></i></span>
+                                <img src="/images/logoweb.png" alt="" width="35px"></span>
                             </span>
                             <span class="bell"></span>
                         </button>
@@ -89,7 +92,7 @@
                                         </span>
                                     </div>
                                     <div class="divtc2">
-                                        <span class="tc">Trang chủ</span>
+                                        <span class="tc">Admin Page</span>
                                     </div>
                                     <span class="hsAdmin"></span>
                                 </div>
@@ -104,22 +107,67 @@
                                         </span>
                                     </div>
                                     <div class="divtc2">
-                                        <span class="tc">Quản trị bài hát</span>
+                                        <span class="tc">Song Administration</span>
                                     </div>
                                     <span class="hsAdmin"></span>
                                 </div>
                             </li>
                         </a>
-                        <a href="Trangchu.html">
+                        <a href="Singer.html">
                             <li class="litc">
                                 <div class="divtc">
                                     <div class="divtc1">
                                         <span class="icondivtc">
-                                            <i class="fa-sharp fa-solid fa-chart-pie"></i>
+                                            <i class="fa-solid fa-microphone"></i>
                                         </span>
                                     </div>
                                     <div class="divtc2">
-                                        <span class="tc">Trung tâm phát triển</span>
+                                        <span class="tc">Manage singer list</span>
+                                    </div>
+                                    <span class="hsAdmin"></span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="Podcast.html">
+                            <li class="litc">
+                                <div class="divtc">
+                                    <div class="divtc1">
+                                        <span class="icondivtc">
+                                            <i class="fa-solid fa-podcast"></i>
+                                        </span>
+                                    </div>
+                                    <div class="divtc2">
+                                        <span class="tc">Podcast Management</span>
+                                    </div>
+                                    <span class="hsAdmin"></span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="Playlist.html">
+                            <li class="litc">
+                                <div class="divtc">
+                                    <div class="divtc1">
+                                        <span class="icondivtc">
+                                            <i class="fa-solid fa-circle-play"></i>
+                                        </span>
+                                    </div>
+                                    <div class="divtc2">
+                                        <span class="tc">Playlist Management</span>
+                                    </div>
+                                    <span class="hsAdmin"></span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="Video.html">
+                            <li class="litc">
+                                <div class="divtc">
+                                    <div class="divtc1">
+                                        <span class="icondivtc">
+                                            <i class="fa-solid fa-video"></i>
+                                        </span>
+                                    </div>
+                                    <div class="divtc2">
+                                        <span class="tc">Video Management</span>
                                     </div>
                                     <span class="hsAdmin"></span>
                                 </div>
@@ -134,22 +182,7 @@
                                         </span>
                                     </div>
                                     <div class="divtc2">
-                                        <span class="tc">Quản lý người dùng</span>
-                                    </div>
-                                    <span class="hsAdmin"></span>
-                                </div>
-                            </li>
-                        </a>
-                        <a href="Quanlydanhgia.html">
-                            <li class="litc">
-                                <div class="divtc">
-                                    <div class="divtc1">
-                                        <span class="icondivtc">
-                                            <i class="fa-solid fa-user-pen"></i>
-                                        </span>
-                                    </div>
-                                    <div class="divtc2">
-                                        <span class="tc">Quản lý đánh giá</span>
+                                        <span class="tc">User Management</span>
                                     </div>
                                     <span class="hsAdmin"></span>
                                 </div>
@@ -162,10 +195,10 @@
                 <div class="maintop"></div>
                 <div>
                     <div class="maindowntop">
-                        <p class="title"><b>QUẢN TRỊ BÀI HÁT</b></p>
+                        <p class="title"><b>SONG ADMINISTRATION</b></p>
                         <a href="Quantribaihat.html">
                             <button class="create" tabindex="0" type="button">
-                                Tạo bài hát
+                                <a href="Thembaihat.html">CREATE SONG</a>
                                 <span class="createmussic"></span>
                             </button>
                         </a>
@@ -174,7 +207,7 @@
                         <div class="on">
                             <div class="xuat">
                                 <div class="xuatbh">
-                                    <div class="xuatallbh">Xuất danh sách tất cả bài hát</div>
+                                    <div class="xuatallbh">Export a list of all songs</div>
                                     <input class="nativeinput">
                                     <span class="angledown">
                                         <i class="fa-solid fa-angle-down"></i>
@@ -191,7 +224,7 @@
                             </div>
                             <div class="xuat">
                                 <div class="xuatbh">
-                                    <div class="xuatallbh">Xuất danh sách bài hát đã chọn</div>
+                                    <div class="xuatallbh">Export selected playlist</div>
                                     <input class="nativeinput">
                                     <span class="angledown">
                                         <i class="fa-solid fa-angle-down"></i>
@@ -203,7 +236,7 @@
                             </div>
                             <div class="xuat">
                                 <div class="xuatbh">
-                                    <div class="xuatallbh">Cập nhật danh sách tất cả bài hát</div>
+                                    <div class="xuatallbh">Updated list of all songs</div>
                                     <input class="nativeinput">
                                     <span class="angledown">
                                         <i class="fa-solid fa-angle-down"></i>
@@ -215,7 +248,7 @@
                             </div>
                         </div>
                         <div class="between">
-                            <p class="title2">Tổng cộng có: 7 bản ghi</p>
+                            <p class="title2">Total: 7 records</p>
                             <nav class="nav" aria-label="pagination navigation">
                                 <ul class="navul">
                                     <li>
@@ -299,15 +332,13 @@
                                 <thead>
                                     <tr class="trthead">
                                         <th class="thtr1">STT</th>
-                                        <th class="thtr1">Tên bài hát</th>
-                                        <th class="thtr1">Ca sĩ thể hiện</th>
-                                        <th class="thtr1">Nhạc sĩ sáng tác</th>
-                                        <th class="thtr1">Thời gian</th>
-                                        <th class="thtr1" width="134px">Album</th>
-                                        <th class="thtr1" width="90px">Ngày phát hành</th>
-                                        <th class="thtr1" width="80px">Lượt người nghe</th>
-                                        <th class="thtr1" width="70px">Số người yêu thích</th>
-                                        <th class="thtr1">Thao tác</th>
+                                        <th class="thtr1">Name</th>
+                                        <th class="thtr1" width="180px">Singer</th>
+                                        <th class="thtr1" width="150px">Album</th>
+                                        <th class="thtr1" width="150px">Genre</th>
+                                        <th class="thtr1" width="80px">Listens</th>
+                                        <th class="thtr1" width="90px">Image</th>
+                                        <th class="thtr1" width="90px"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -316,37 +347,31 @@
                                             <p class="ptdtr">1</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Thiên Đàng Không Xa</p>
+                                            <p class="ptdtr">Hello</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Bạch Công Khanh</p>
+                                            <p class="ptdtr">Adele</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Lê Hựu Hà</p>
+                                            <p class="ptdtr">Album: 25</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">04:50</p>
+                                            <p class="ptdtr">Soul</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Dằm Trong Tim</p>
+                                            <p class="ptdtr">3K4</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">22/09/2022</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">1K1</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">293</p>
+                                            <p class="ptdtr"><img src="/images/HelloAdele.jpg" alt=""></p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    Sửa
+                                                    <a href="Suabaihat.html" style="color: white;">Edit</a>
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">
-                                                    Xóa
+                                                    Delete
                                                     <span class="bell"></span>
                                                 </button>
                                             </div>
@@ -357,37 +382,31 @@
                                             <p class="ptdtr">2</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Trong Mơ</p>
+                                            <p class="ptdtr">Lemon Tree</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Mỹ Mỹ</p>
+                                            <p class="ptdtr">Fool's Garden</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Trung I.U</p>
+                                            <p class="ptdtr">Album: Dish of the Day</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">03:59</p>
+                                            <p class="ptdtr">R&B/Soul, Indian Film Pop, Pop, UK R&B, Rock</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">(Single)</p>
+                                            <p class="ptdtr">10K8</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">21/96/2022</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">359</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">25</p>
+                                            <p class="ptdtr"><img src="/images/Lemontree.jpg" alt=""></p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    Sửa
+                                                    Edit
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">
-                                                    Xóa
+                                                    Delete
                                                     <span class="bell"></span>
                                                 </button>
                                             </div>
@@ -397,38 +416,32 @@
                                         <td class="tdtr1">
                                             <p class="ptdtr">3</p>
                                         </td>
-                                        <td class="tdtr2">
-                                            <p class="ptdtr">Vì Mẹ Anh Bắt Chia Tay</p>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Black space</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Miu Lê, Karik</p>
+                                            <p class="ptdtr">Taylor Swift</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Châu Đăng Khoa</p>
+                                            <p class="ptdtr">Album: 1989</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">04:22</p>
+                                            <p class="ptdtr">Pop</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">(Single)</p>
+                                            <p class="ptdtr">8K4</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">13/06/2022</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">12K</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">3K</p>
+                                            <p class="ptdtr"><img src="/images/BlankSpace.jpg" alt=""></p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    Sửa
+                                                    Edit
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">
-                                                    Xóa
+                                                    Delete
                                                     <span class="bell"></span>
                                                 </button>
                                             </div>
@@ -439,37 +452,31 @@
                                             <p class="ptdtr">4</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Một Đêm Say</p>
+                                            <p class="ptdtr">Bad blood</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Thịnh Suy</p>
+                                            <p class="ptdtr">Taylor Swift, Max Martin, Shellback, Kendrick Lamar</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">Đức Huy</p>
+                                            <p class="ptdtr">Album: 1989</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">04:26</p>
+                                            <p class="ptdtr">Pop</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">(Single)</p>
+                                            <p class="ptdtr">6K9</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">2019</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">9M</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">15K</p>
+                                            <p class="ptdtr"><img src="/images/BadBlood.png" alt=""></p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    Sửa
+                                                    Edit
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">
-                                                    Xóa
+                                                    Delete
                                                     <span class="bell"></span>
                                                 </button>
                                             </div>
@@ -479,38 +486,32 @@
                                         <td class="tdtr1">
                                             <p class="ptdtr">5</p>
                                         </td>
-                                        <td class="tdtr2">
-                                            <p class="ptdtr">Vì Mẹ Anh Bắt Chia Tay</p>
-                                        </td>
-                                        <td class="tdtr2">
-                                            <p class="ptdtr">Miu Lê, Karik</p>
-                                        </td>
-                                        <td class="tdtr2">
-                                            <p class="ptdtr">Châu Đăng Khoa</p>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Until You</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">04:22</p>
+                                            <p class="ptdtr">Shayne Ward</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">(Single)</p>
+                                            <p class="ptdtr">Album: Breathless</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">13/06/2022</p>
+                                            <p class="ptdtr">Pop</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">12K</p>
+                                            <p class="ptdtr">4K8</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">3K</p>
+                                            <p class="ptdtr"><img src="/images/untilyou.jpg" alt=""></p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    Sửa
+                                                    Edit
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">
-                                                    Xóa
+                                                    Delete
                                                     <span class="bell"></span>
                                                 </button>
                                             </div>
@@ -520,79 +521,32 @@
                                         <td class="tdtr1">
                                             <p class="ptdtr">6</p>
                                         </td>
-                                        <td class="tdtr2">
-                                            <p class="ptdtr">Vì Mẹ Anh Bắt Chia Tay</p>
-                                        </td>
-                                        <td class="tdtr2">
-                                            <p class="ptdtr">Miu Lê, Karik</p>
-                                        </td>
-                                        <td class="tdtr2">
-                                            <p class="ptdtr">Châu Đăng Khoa</p>
+                                        <td class="tdtr1">
+                                            <p class="ptdtr">Soledad</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">04:22</p>
+                                            <p class="ptdtr">Westlife</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">(Single)</p>
+                                            <p class="ptdtr">Album: Coast to Coast</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">13/06/2022</p>
+                                            <p class="ptdtr">Pop</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">12K</p>
+                                            <p class="ptdtr">8K4</p>
                                         </td>
                                         <td class="tdtr1">
-                                            <p class="ptdtr">3K</p>
+                                            <p class="ptdtr"><img src="/images/Soledad.jpg" alt=""></p>
                                         </td>
                                         <td class="tdtr1">
                                             <div class="divthaotac">
                                                 <button class="btsua">
-                                                    Sửa
+                                                    Edit
                                                     <span class="bell"></span>
                                                 </button>
                                                 <button class="btxoa">
-                                                    Xóa
-                                                    <span class="bell"></span>
-                                                </button>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="trtbody">
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">7</p>
-                                        </td>
-                                        <td class="tdtr2">
-                                            <p class="ptdtr">Vì Mẹ Anh Bắt Chia Tay</p>
-                                        </td>
-                                        <td class="tdtr2">
-                                            <p class="ptdtr">Miu Lê, Karik</p>
-                                        </td>
-                                        <td class="tdtr2">
-                                            <p class="ptdtr">Châu Đăng Khoa</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">04:22</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">(Single)</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">13/06/2022</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">12K</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <p class="ptdtr">3K</p>
-                                        </td>
-                                        <td class="tdtr1">
-                                            <div class="divthaotac">
-                                                <button class="btsua">
-                                                    Sửa
-                                                    <span class="bell"></span>
-                                                </button>
-                                                <button class="btxoa">
-                                                    Xóa
+                                                    Delete
                                                     <span class="bell"></span>
                                                 </button>
                                             </div>
@@ -607,4 +561,5 @@
         </div>
     </div>
 </body>
+<!-- <script src="/scripts/Quantribaihat.js"></script> -->
 </html>

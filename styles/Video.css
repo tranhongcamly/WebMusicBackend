@@ -146,8 +146,8 @@
     cursor: pointer;
     margin-left: 24px;
 }
-.show{
-    display: block;
+.hienThi{
+    display:inline-block;
 }
 .gear{
     color:darkturquoise;
@@ -170,9 +170,6 @@
     /* padding-left: 18px; */
     padding-right: 16px;
     font-weight: 300;
-    background-color: white;
-    border: 0px;
-    cursor: pointer;
 }
 .angle{
     user-select: none;
@@ -1047,8 +1044,13 @@ tbody{
     line-height: 1.5;
     letter-spacing: 0.00938em;
 }
-.ptdtr img{
-    width: 100%;
+.ptdtr1{
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    text-align: justify;
 }
 .tdtr2{
     border: 1px solid #bfbfbf!important;

@@ -4,21 +4,21 @@ const data = {
   labels: labels,
   datasets: [
     {
-      label: 'Lượt truy cập',
+      label: 'Visits',
       backgroundColor: 'blue',
       borderColor: 'blue',
       data: [10, 27, 56, 34, 24, 53],
       tension: 0.4,
     },
     {
-      label: 'Người đăng ký',
+      label: 'Subscribers',
       backgroundColor: 'red',
       borderColor: 'red',
       data: [0, 34, 32, 23, 2, 82],
       tension: 0.4,
     },
     {
-      label: 'Hủy đăng ký',
+      label: 'Unsubscribe',
       backgroundColor: 'yellow',
       borderColor: 'yellow',
       data: [0, 2, 6, 3, 2, 0],
